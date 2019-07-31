@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="25px" viewBox="0 0 100 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="40px" height="13px" viewBox="0 0 40 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard</title>
+    <title>BASIC</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Futura-Medium, Futura" font-size="14" font-weight="400" letter-spacing="-0.0209999997">
-        <text id="CARDMASON" fill="#000000">
-            <tspan x="2.42067187" y="18">CARDMASON</tspan>
-        </text>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Futura-Medium, Futura" font-size="14" font-weight="400">
+        <g id="logo-full" transform="translate(-1.000000, -3.000000)" fill="#000000">
+            <text id="BASIC">
+                <tspan x="0.42067187" y="15">BASIC</tspan>
+            </text>
+        </g>
     </g>
 </svg>
