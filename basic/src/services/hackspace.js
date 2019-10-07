@@ -32,3 +32,20 @@ export const getIndividualStory = async () => {
     console.log(e)
   }
 }
+
+export const getComments = async (ID) => {
+  try {
+    let temp = []
+    //: https://hacker-news.firebaseio.com/v0/item/8863.json?print=pretty
+    let list = await hacker.get('item/'+ID+'.json?print=pretty')
+    let kids = list.data.kids
+    for (const [index, value] of kids.entries()) {
+      let item = await hacker.get('item/'+value+'.json?print=pretty')
+      console.log(item)
+      temp.push(item)
+    }
+    return temp
+  } catch (e) {
+    console.log(e)
+  }
+}

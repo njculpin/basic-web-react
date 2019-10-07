@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Context } from '../store'
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import {
-  Login, Register, Landing, SinglePage
+  Login, Register, Landing, SinglePage, Comments
 } from '../screens'
 import { NavBar, Footer, ScrollToTop } from '../components'
 
@@ -28,6 +28,10 @@ export function Navigation (props) {
           <Route
             path="/singlepage"
             component={SinglePage}
+          />
+          <Route
+            path="/comments"
+            component={Comments}
           />
           </Switch>
           <Footer />

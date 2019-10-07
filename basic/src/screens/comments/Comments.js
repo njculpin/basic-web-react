@@ -1,17 +1,19 @@
 import React, { useState, useContext, useEffect } from 'react'
 import { Context } from '../../store'
 import { useEffectAsync } from '../../utils'
-import { StoryRow } from '../../components'
-import { getStories, getIndividualStory } from '../../services'
+import { CommentsRow } from '../../components'
+import { getComments } from '../../services'
 
-export function Landing(props) {
+
+export function Comments(props) {
+  let ID = props.location.search.split('=')[1]
   let [dispatch] = useContext(Context)
   let [state, setState] = useState([])
 
   useEffectAsync(async () => {
     try {
-      let store = await getIndividualStory()
-      console.log(store)
+      console.log(ID)
+      let store = await getComments(ID)
       setState(store)
     } catch (e) {
       console.log(e)
@@ -25,7 +27,7 @@ export function Landing(props) {
         <div className="mt-6">
           <h1>BASIC</h1>
           {state.map((story, index) =>
-          <StoryRow
+          <CommentsRow
           history={props.history}
           dispatch={dispatch}
           index={index}
