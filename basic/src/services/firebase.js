@@ -14,6 +14,11 @@ export const getUser = async (uid) => {
   }
 }
 
-export const postCard = async (card) => {
-
+export const getUsers = async () => {
+  try {
+    const usersSnap = await firestore.collection('users').get()
+    return usersSnap.docs.map(item => ({ id: item.id, ...item.data() }));
+  } catch(e) {
+    console.log('error', e)
+  }
 }

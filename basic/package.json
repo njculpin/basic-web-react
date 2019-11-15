@@ -13,7 +13,8 @@
     "react-responsive-modal": "^4.0.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
-    "tailwindcss": "^1.0.5"
+    "tailwindcss": "^1.0.5",
+    "validate.js": "^0.13.1"
   },
   "scripts": {
     "deploy": "firebase deploy --only hosting:basic",
