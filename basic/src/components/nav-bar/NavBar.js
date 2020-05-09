@@ -4,8 +4,8 @@ import { withRouter } from "react-router";
 
 const Bar = (props) => {
   return (
-    <div className="w-full z-10 bg-white p-4 px-6 flex flex-row justify-between items-center border-b border-grey">
-      <Link to="/"><p>Basic Logo Placeholder</p></Link>
+    <div className="w-full z-10 bg-gray-100 p-8 px-6 flex flex-row justify-between items-center font-bold">
+      <Link to="/"><p>Title</p></Link>
     </div>
   )
 }

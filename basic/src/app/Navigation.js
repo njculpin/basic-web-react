@@ -10,8 +10,7 @@ export function Navigation (props) {
   return (
     <Router>
       <ScrollToTop>
-        <div className="pb-24">
-          <NavBar/>
+        <div className="pb-24 bg-gray-100">
           <Switch>
           <Route
             exact path="/"

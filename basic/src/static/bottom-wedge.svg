@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="627px" height="203px" viewBox="0 0 627 203" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard Copy</title>
+    <title>Artboard</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Artboard-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="Path" fill="#718096" transform="translate(313.500000, 101.500000) rotate(-180.000000) translate(-313.500000, -101.500000) " points="0 -5.68434189e-13 627 203 0 203"></polygon>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" fill="#F7FAFC" points="0 0 627 203 627 209.566406 0 209.566406"></polygon>
     </g>
 </svg>

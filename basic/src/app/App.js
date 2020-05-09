@@ -8,7 +8,6 @@ function App() {
 
   if(loadingApp) return (
     <div>
-
     </div>
   )
 
