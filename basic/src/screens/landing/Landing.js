@@ -1,4 +1,5 @@
 import React from 'react'
+import { SignUp } from '../../components'
 
 export function Landing(props) {
 
@@ -172,9 +173,7 @@ export function Landing(props) {
           <div className="w-1/2 content-center flex flex-wrap pr-2">
             <div>
               <p className="text-6xl font-black w-full text-black">Get Started</p>
-              <p className="text-4xl font-black w-full text-gray-700">
-                Sign up Form
-              </p>
+              <SignUp/>
             </div>
           </div>
           <div className="w-1/2 h-200 pl-2">

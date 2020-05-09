@@ -44,7 +44,7 @@ export function ModalProvider(props) {
               setState({ show: false })
               if (state.callback) state.callback()
             }}
-            className="w-64 h-12 font-brown-regular bg-red hover:bg-red-dark text-white font-bold py-2 px-4 rounded shadow">
+            className="w-64 h-12 font-brown-regular bg-red hover:bg-red-dark text-black font-bold py-2 px-4 rounded shadow">
             {state.buttonText}
           </button>
         </div>

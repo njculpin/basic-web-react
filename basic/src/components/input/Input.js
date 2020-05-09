@@ -8,7 +8,7 @@ export const Input = (props) => (
             onChange={(e) => props.onChange(props.field, e)}
             value={props.value}
             style={{ WebkitAppearance: 'none', outline: 'none' }}
-            className="font-lato bg-gray-100 rounded p-3 py-4 w-full"
+            className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
             placeholder={props.placeholder}
             type={props.type ? "password" : "text"}
         />
