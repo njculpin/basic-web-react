@@ -2,10 +2,6 @@ import React from 'react'
 import Mailchimp from './Mailchimp'
 
 export function Landing(props) {
-
-  function goNow(){
-  }
-
   return (
     <div className="flex flex-wrap w-full pb-8 bg-white justify-center">
 
@@ -77,7 +73,7 @@ export function Landing(props) {
           <div className="w-full content-center flex flex-wrap">
             <div className="w-full">
               <p className="text-6xl font-black w-full text-black">Get Started</p>
-              <Mailchimp/>
+              <MailChimp/>
             </div>
           </div>
           <div className="w-1/2 h-200 bg-white">
@@ -87,5 +83,32 @@ export function Landing(props) {
 
       </div>
     </div>
+  )
+}
+
+function MailChimp() {
+  return (
+    <div className="w-full justify-center items-center text-center">
+     <Mailchimp
+     action=''
+     fields={[
+       {
+         name: 'FNAME',
+         placeholder: 'First Name',
+         required: true
+       },
+       {
+         name: 'LNAME',
+         placeholder: 'Last Name',
+         required: true
+       },
+       {
+         name: 'EMAIL',
+         placeholder: 'Email',
+         required: true
+       },
+     ]}
+     />
+     </div>
   )
 }
